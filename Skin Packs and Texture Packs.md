@@ -195,6 +195,7 @@ folder. Simple as that!
 
 # Section 4 - Textures (Advanced)
 *(Note, LCE really does NOT like insanely high resolution packs)*
+
 So, you want textures higher than 16x or 32x? Bold you are. To do this, were gonna make a copy of a base texture pack, like Candy pack, and
 rename your folder to whatever you want your pack name to be. You want to go into Data\\ and rename `x16Data.pck`/`x32Data.pck` to
 x\[number\]Data.pck. So if you are making a 64x64 pack, it should be
