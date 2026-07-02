@@ -36,10 +36,16 @@ in mind if you replace a skin, it will only show for you.
 Once you have made this copy, rename it to whatever you want the Skin
 Pack Display Name to be in game.
 
+<img width="1557" height="226" alt="Picture" src="https://github.com/user-attachments/assets/5fe7751f-1688-41ef-b37e-8340e28e4329" />
+
+
 Once you have done that, open the folder and PCK Studio. You will want
 to drag and drop the copied PCK file onto PCK Studio, or go File \> Open
 and select the copied PCK file. Once you have done that, you will be
 given something that looks like this,
+
+<img width="1053" height="654" alt="Picture" src="https://github.com/user-attachments/assets/8f7c2f95-5c76-4c48-88a1-4edcdca2525f" />
+
 
 As you can see, dlcskin######## are the skins in Skin Pack 1. You can
 click on the files to see the skin texture. But we aren't interested in
@@ -51,10 +57,16 @@ we have done that, we want to right click where the skin files used to
 be and select Create > Skin. You will be presented with something like
 this,
 
+<img width="476" height="289" alt="Picture" src="https://github.com/user-attachments/assets/8bad446e-af2f-4012-8d29-5a2a5d361a48" />
+
+
 What you want to do is click "Edit Skin Flags", and UNCHECK "64x64
 Classic Skin". Unless your fork has 64x64 skin support, you WILL have
 to uncheck this!!! (Forks here include Console editions, such as X360.)
 It should look like the following,
+
+<img width="629" height="544" alt="Picture" src="https://github.com/user-attachments/assets/d7d13fe4-cc95-4155-83df-a7318bff593a" />
+
 
 Again, this is to make a basic Steve skin, enable and disable what you
 know your fork supports. If your unsure, you can always try it and
@@ -65,12 +77,21 @@ summary is that, every skin has its own unique 8 digit ID. I have
 personally used more than 8 digits, but I do not know if it is safe to
 do so.
 
+<img width="484" height="295" alt="Picture" src="https://github.com/user-attachments/assets/eb096bc7-6822-4fdc-9ffa-26d78a62a4c2" />
+
+
 After selecting Auto-Gen, give your skin a name, and a theme name, These
 will show up here!
+
+<img width="721" height="228" alt="Picture" src="https://github.com/user-attachments/assets/e5a15c2c-855d-4264-9329-2c6f0644b9f1" />
+
 
 Now lastly.. The skin. You are going to want to click anywhere in this
 box and select your skins png file. Remember! If your fork does NOT
 support 64x64 skins, you will have to use a 64x32 skin file.
+
+<img width="481" height="292" alt="Picture" src="https://github.com/user-attachments/assets/28add1ab-df9f-418c-b5db-388c5874d7f7" />
+
 
 In some forks you CAN use higher resolution skins via a loop-hole of
 sorts. Minecraft LCE doesnt look at the size of the skin, it looks at
@@ -80,6 +101,9 @@ just make your skin higher quality.
 
 You can also optionally add a cape texture,
 
+<img width="264" height="148" alt="Picture" src="https://github.com/user-attachments/assets/188570ab-4032-46e0-a636-75123039f8c3" />
+
+
 But it's not required. When you've selected your skin of choice, click
 "Create Skin". Repeat this for as many skins as you want to make!
 
@@ -88,6 +112,9 @@ skin folder we originally copied. We *can* leave the PCK File named
 Skins1.pck, but we should name it something related to the pack itself.
 If you do choose to rename the PCK file, delete the originally copied
 Skins1.pck
+
+<img width="725" height="129" alt="Picture" src="https://github.com/user-attachments/assets/eeeb751d-ab40-4052-b86a-0618825db2ee" />
+
 
 And lastly, boot up LCE and see if it's in the game. If not, make sure
 everything is properly done, as this should have made a working basic
@@ -110,7 +137,13 @@ So, you want to follow Section 1 until you get to the part about
 choosing your skin texture. Instead of doing that, we want to click on
 "Edit Model", and select "Yes"
 
+<img width="483" height="287" alt="Picture" src="https://github.com/user-attachments/assets/26814bf0-33ac-4986-af70-8345a73d039a" />
+
+
 After a moment, we will get this,
+
+<img width="890" height="593" alt="Picture" src="https://github.com/user-attachments/assets/ef8fdcf7-f886-4516-915c-16ba41a3d613" />
+
 
 When this opens, we want to select "Import Skin", like the image above
 shows.
@@ -120,6 +153,9 @@ fine, as there is no work yet. So this is safe to ignore and click on
 Yes. A file selecter window will open up, in the bottom right we want to
 change the selection from PCK Studio Model files, to bbmodel files, as
 well as navigate to your models saved bbmodel file and open it.
+
+<img width="483" height="93" alt="Picture" src="https://github.com/user-attachments/assets/e41a6194-0766-4fae-84c0-056f5acf37b2" />
+
 
 The model *may* appear invisible, I don't know why it does this, but
 hit create anyways. When that's done, follow the rest of the basic skin
@@ -149,6 +185,9 @@ folder, it should be the one with the README.txt in it. Give your pack a
 name, an ID, and a description, and pick the resolution. Unless you are
 manually making a texture pack (described in Section 4), you are limited
 to 16x or 32x.
+
+<img width="499" height="263" alt="Picture" src="https://github.com/user-attachments/assets/0cc2b3aa-4a79-4314-802d-c1faebd1c174" />
+
 
 When those are filled out, hit Convert! It should make a new folder at
 where ever you put TexturePackBuilder.exe\\output\\\[packname\]. You
