@@ -192,3 +192,28 @@ When those are filled out, hit Convert! It should make a new folder at
 where ever you put TexturePackBuilder.exe\\output\\\[packname\]. You
 should just be able to now copy the pack name folder into your DLC
 folder. Simple as that!
+
+# Section 4 - Textures (Advanced)
+*(Note, LCE really does NOT like insanely high resolution packs)*
+So, you want textures higher than 16x or 32x? Bold you are. To do this, were gonna make a copy of a base texture pack, like Candy pack, and
+rename your folder to whatever you want your pack name to be. You want to go into Data\\ and rename `x16Data.pck`/`x32Data.pck` to
+x\[number\]Data.pck. So if you are making a 64x64 pack, it should be
+`x64Data.pck`.
+
+Now, open `TexturePack.pck` in PCK Studio, youll notice you have x16 or
+x32, and inside that folder is a x\[number\]Info.pck. You WILL want to
+extract that pck file, like so
+
+<img width="363" height="304" alt="Picture" src="https://github.com/user-attachments/assets/ac0afd1f-14e0-449b-92f9-d144da47ca85" />
+
+
+And store it somewhere youll be able to find it again. You want to open
+that pck file in PCK Studio, and replace the icon and comparison pngs.
+You may want to wait on the comparison until you have the pack in game
+to get the proper screenshot. One you do replace them, go File > Save,
+and replace the original one in TexturePack.pck. And save
+TexturePack.pck as well.
+Now, here's the annoying-ish part. You want to open the
+Data\\x\[number\]Data.pck. You want to replace all of the images in here
+with higher resolution ones, then save.
+
