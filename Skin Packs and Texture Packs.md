@@ -123,8 +123,7 @@ Steve model skin.
 # Section 2 - Advanced Skins
 
 To make more advanced skins, ones with custom models and such, you will
-want to use Blockbench and make the model/skin file. This is your job to
-include the bbmodel and skin texture I send you neoapps.
+want to use Blockbench and make the model/skin file. Or use [the template bbmodel](https://github.com/LCE-Hub/Guides/raw/refs/heads/main/files/template.bbmodel)
 
 You don't need the full downloaded version of blockbench, the web
 version works perfectly fine for this. But you *may* want the web
