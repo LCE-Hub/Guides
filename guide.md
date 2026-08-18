@@ -20,8 +20,9 @@ Open your copy of the Default.png in some kind of image editing tool, preferably
 The image CAN be resized to fit any size you desire, but keep the size a ratio of 23:20.
 
 The letters have to remain 3 pixels away horizontally from the ones on the side and one pixel vertically away from the ones above and below. if you resized the image, multiply the distance by the new width divided by 184. so if the image size is 368x320, multiply the distances by two.
-
+<img width="558" height="597" alt="Reference distance and sizes" src="[https://github.com/user-attachments/assets/1afd3c68-5d2f-4112-98e5-0650d3a078ad]()" />
 ## step 5
+
 Edit the letters!!! :3 
 
 Once your done, remember to replace the sprite in the pck once your done!
